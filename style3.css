@@ -1,0 +1,67 @@
+/* Apply the Sankofa Display font */
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display:wght@400;700&display=swap');
+
+/* Apply a different font for the question text */
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Default font for the body */
+    background-color: #f8e2e2; /* Off-white with a hint of pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.text-box {
+    font-family: 'Sankofa Display', serif; /* Font for typing text */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    color: #333;
+}
+
+.question-text {
+    font-family: 'Arial', sans-serif; /* Different font for question text */
+    font-size: 1rem;
+    color: #333;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color: #d6336c; /* Dark pink color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
