@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     answer2.addEventListener('input', checkAnswers);
 
     // Typewriting effect
-    const text = 'Lets us play a little game';
+    const text = 'Fill in the blanks';
     let index = 0;
     
     function typeText() {
